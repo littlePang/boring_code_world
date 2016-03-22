@@ -8,6 +8,9 @@
     <option name="pathToConfigFileJava" value="$USER_HOME$/Documents/Qunar.xml" />
     <option name="selectedJavaProfile" value="Qunar" />
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="IdProvider" IDEtalkID="FDE00020A1FF426C22F6D41C28A164CB" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">

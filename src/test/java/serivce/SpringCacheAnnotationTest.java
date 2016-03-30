@@ -29,9 +29,6 @@ public class SpringCacheAnnotationTest {
     @Before
     public void before() {
         ApplicationContext ac = new ClassPathXmlApplicationContext("context.xml");
-        springCacheAnnotation = ac.getBean(SpringCacheAnnotation.class);
-        simpleCache = ac.getBean(SimpleCacheImpl.class);
-        simpleCacheManager = ac.getBean(SimpleCacheManager.class);
     }
 
     @Test

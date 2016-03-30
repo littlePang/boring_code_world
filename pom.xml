@@ -21,17 +21,31 @@
         <logback.version>1.1.3</logback.version>
         <org.slf4j-version>1.7.5</org.slf4j-version>
         <io.netty.version>3.10.5.Final</io.netty.version>
+        <io.netty.all.version>4.0.35.Final</io.netty.all.version>
+        <org.springframework.spring.version>2.5.6</org.springframework.spring.version>
+        <commons-lang3.version>3.4</commons-lang3.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
 
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+
             <!--netty-->
             <dependency>
                 <groupId>io.netty</groupId>
                 <artifactId>netty</artifactId>
                 <version>${io.netty.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${io.netty.all.version}</version>
             </dependency>
 
             <!-- dubbo -->
@@ -43,6 +57,10 @@
                     <exclusion>
                         <artifactId>spring</artifactId>
                         <groupId>org.springframework</groupId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>netty</artifactId>
+                        <groupId>org.jboss.netty</groupId>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -75,9 +93,9 @@
 
             <!-- spring -->
             <dependency>
-                <groupId>org.springframework.spring</groupId>
+                <groupId>org.springframework</groupId>
                 <artifactId>spring</artifactId>
-                <version>${org.springframework.version}</version>
+                <version>${org.springframework.spring.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
@@ -235,9 +253,15 @@
     </dependencyManagement>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>io.netty</groupId>
-            <artifactId>netty</artifactId>
+            <artifactId>netty-all</artifactId>
         </dependency>
 
         <dependency>
@@ -289,7 +313,7 @@
 
         <!-- spring -->
         <dependency>
-            <groupId>org.springframework.spring</groupId>
+            <groupId>org.springframework</groupId>
             <artifactId>spring</artifactId>
         </dependency>
 

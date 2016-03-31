@@ -3,8 +3,6 @@ package com.little.pang.boring.code.netty.time.packagesplicing;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.google.common.base.Charsets;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
@@ -13,16 +11,16 @@ import io.netty.channel.SimpleChannelInboundHandler;
 /**
  * Created by jaky on 3/30/16.
  */
-public class TimeClientHandler extends SimpleChannelInboundHandler {
+public class EchoClientHandler extends SimpleChannelInboundHandler {
 
-    private static Logger logger = LoggerFactory.getLogger(TimeClientHandler.class);
+    private static Logger logger = LoggerFactory.getLogger(EchoClientHandler.class);
 
     private byte[] req;
 
     private int counter;
 
-    public TimeClientHandler() {
-        req = ("query time order" + System.getProperty("line.separator")).getBytes();
+    public EchoClientHandler() {
+        req = ("hello this is a test for delimiterBasedFrameDecoder" + "_$").getBytes();
 
 
     }
@@ -30,7 +28,7 @@ public class TimeClientHandler extends SimpleChannelInboundHandler {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         ByteBuf message;
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             message = Unpooled.buffer(req.length);
             message.writeBytes(req);
             ctx.writeAndFlush(message);

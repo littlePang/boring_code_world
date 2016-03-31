@@ -1,6 +1,7 @@
 package com.little.pang.boring.code.netty.time.packagesplicing;
 
 import io.netty.bootstrap.ServerBootstrap;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
@@ -8,13 +9,14 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.codec.DelimiterBasedFrameDecoder;
 import io.netty.handler.codec.LineBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 
 /**
  * Created by jaky on 3/29/16.
  */
-public class TimeServer {
+public class EchoServer {
 
     public void bind(int port) throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
@@ -41,15 +43,15 @@ public class TimeServer {
 
         @Override
         protected void initChannel(SocketChannel socketChannel) throws Exception {
-            socketChannel.pipeline().addLast(new LineBasedFrameDecoder(1024));
+            socketChannel.pipeline().addLast(new DelimiterBasedFrameDecoder(1024, Unpooled.copiedBuffer("_$".getBytes())));
             socketChannel.pipeline().addLast(new StringDecoder());
-            socketChannel.pipeline().addLast(new TimeServerHandler());
+            socketChannel.pipeline().addLast(new EchoServerHandler());
         }
     }
 
     public static void main(String[] args) throws Exception {
         int port = 8080;
-        new TimeServer().bind(port);
+        new EchoServer().bind(port);
     }
 
 }

@@ -4,8 +4,6 @@ import java.util.Date;
 
 import org.apache.commons.lang3.time.DateFormatUtils;
 
-import com.google.common.base.Charsets;
-
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
@@ -14,7 +12,7 @@ import io.netty.channel.SimpleChannelInboundHandler;
 /**
  * Created by jaky on 3/29/16.
  */
-public class TimeServerHandler extends SimpleChannelInboundHandler {
+public class EchoServerHandler extends SimpleChannelInboundHandler {
 
     private int counter;
 
@@ -22,12 +20,9 @@ public class TimeServerHandler extends SimpleChannelInboundHandler {
     protected void channelRead0(ChannelHandlerContext ctx, Object msg) throws Exception {
         String body = (String) msg;
 
-        System.out.println("the time server receive order : " + body + "this counter " + ++counter);
+        System.out.println("the echo server receive order : [" + body + "] this counter " + ++counter);
 
-        String currentTime = ("query time order".equalsIgnoreCase(body) ? DateFormatUtils.format(new Date(),
-                "yyyy-MM-dd HH:mm:ss") : "bad order") + System.getProperty("line.separator");
-
-        ByteBuf resp = Unpooled.copiedBuffer(currentTime.getBytes());
+        ByteBuf resp = Unpooled.copiedBuffer((body + "_$").getBytes());
         ctx.write(resp);
 
     }

@@ -1,4 +1,4 @@
-package com.little.pang.boring.code.netty.time.server;
+package com.little.pang.boring.code.netty.time.simple;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

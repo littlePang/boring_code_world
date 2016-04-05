@@ -24,11 +24,20 @@
         <io.netty.all.version>4.0.35.Final</io.netty.all.version>
         <org.springframework.spring.version>2.5.6</org.springframework.spring.version>
         <commons-lang3.version>3.4</commons-lang3.version>
+        <messagepack.version>0.6.12</messagepack.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
+
+
+            <!-- 编解码 -->
+            <dependency>
+                <groupId>org.msgpack</groupId>
+                <artifactId>msgpack</artifactId>
+                <version>${messagepack.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -253,6 +262,11 @@
     </dependencyManagement>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.msgpack</groupId>
+            <artifactId>msgpack</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.commons</groupId>

@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8924fbb3-8db5-406c-8b3d-08bababeed08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoClientHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoServer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoServerHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeClientHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeClientHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeServerHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeServerHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/A.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boring_code_world.iws" />
@@ -33,20 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TimeServer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="1092">
-              <caret line="25" column="61" selection-start-line="23" selection-start-column="10" selection-end-line="25" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TimeServerHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/TimeServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="777">
+            <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1050">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
@@ -56,7 +39,7 @@
       <file leaf-file-name="EchoServer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="628" max-vertical-offset="1092">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1029" max-vertical-offset="1323">
               <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding />
             </state>
@@ -66,19 +49,31 @@
       <file leaf-file-name="EchoServerHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="189" max-vertical-offset="714">
+            <state vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="945">
               <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EchoClient.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EchoClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31272727" vertical-offset="376" max-vertical-offset="966">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="966">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.16742598" vertical-offset="504" max-vertical-offset="5733">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <element signature="tag#dependencies#0;tag#project#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +81,7 @@
       <file leaf-file-name="EchoClientHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="502" max-vertical-offset="1029">
+            <state vertical-scroll-proportion="0.0" vertical-offset="924" max-vertical-offset="1155">
               <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
               <folding />
             </state>
@@ -96,7 +91,7 @@
       <file leaf-file-name="Unpooled.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.35.Final/netty-all-4.0.35.Final-sources.jar!/io/netty/buffer/Unpooled.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="737" max-vertical-offset="17913">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1470" max-vertical-offset="18606">
               <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
               <folding />
             </state>
@@ -106,7 +101,7 @@
       <file leaf-file-name="DelimiterBasedFrameDecoder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.35.Final/netty-all-4.0.35.Final-sources.jar!/io/netty/handler/codec/DelimiterBasedFrameDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="632" max-vertical-offset="7140">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1596" max-vertical-offset="7581">
               <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
               <folding />
             </state>
@@ -116,7 +111,7 @@
       <file leaf-file-name="TimeClient.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/simple/TimeClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="924">
+            <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1134">
               <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
               <folding />
             </state>
@@ -126,7 +121,7 @@
       <file leaf-file-name="TimeClientHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/simple/TimeClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="903">
+            <state vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1071">
               <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
@@ -218,6 +213,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -362,85 +358,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boring_code_world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boring_code_world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="netty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boring_code_world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boring_code_world" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="code" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="netty" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="packagesplicing" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -829,16 +748,17 @@
       <workItem from="1459258031879" duration="1357000" />
       <workItem from="1459259422946" duration="258000" />
       <workItem from="1459340989659" duration="4367000" />
-      <workItem from="1459426952324" duration="4046000" />
+      <workItem from="1459426952324" duration="4307000" />
+      <workItem from="1459859980041" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25578000" />
+    <option name="totallyTimeSpent" value="25881000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -854,32 +774,32 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23319103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6463022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6453975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3376206" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36655948" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -899,8 +819,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1016,15 +936,15 @@
             <node x="325.0" y="1435.0">org.springframework:spring-orm:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
             <node x="186.0" y="656.0">org.springframework:spring-aspects:jar:4.2.2.RELEASE</node>
             <node x="325.0" y="1681.0">org.springframework:spring-test:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
-            <node x="186.0" y="492.0">org.springframework.spring:spring:jar:4.2.2.RELEASE</node>
             <node x="326.0" y="1066.0">org.springframework:spring-jdbc:jar:4.2.2.RELEASE/org.springframework:spring-tx:jar:4.2.2.RELEASE</node>
+            <node x="186.0" y="492.0">org.springframework.spring:spring:jar:4.2.2.RELEASE</node>
             <node x="186.0" y="697.0">org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
             <node x="323.0" y="574.0">org.springframework:spring-aop:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
             <node x="505.0" y="1312.0">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-messaging:jar:4.2.2.RELEASE/org.springframework:spring-context:jar:4.2.2.RELEASE</node>
             <node x="328.0" y="1927.0">org.springframework:spring-web:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
-            <node x="354.0" y="246.0">ch.qos.logback:logback-classic:jar:1.1.3/ch.qos.logback:logback-core:jar:1.1.3</node>
-            <node x="293.0" y="451.0">com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final</node>
             <node x="320.0" y="1148.0">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
+            <node x="293.0" y="451.0">com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final</node>
+            <node x="354.0" y="246.0">ch.qos.logback:logback-classic:jar:1.1.3/ch.qos.logback:logback-core:jar:1.1.3</node>
             <node x="320.0" y="1189.0">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-context:jar:4.2.2.RELEASE</node>
             <node x="373.0" y="943.0">org.springframework:spring-expression:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="505.0" y="1271.0">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-messaging:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
@@ -1053,23 +973,23 @@
             <node x="311.0" y="205.0">junit:junit-dep:jar:4.10/org.hamcrest:hamcrest-core:jar:1.1</node>
             <node x="356.0" y="2050.0">org.springframework:spring-webmvc:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="320.0" y="1230.0">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
-            <node x="323.0" y="533.0">org.springframework:spring-aop:jar:4.2.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="352.0" y="779.0">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
+            <node x="323.0" y="533.0">org.springframework:spring-aop:jar:4.2.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="293.0" y="410.0">com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA</node>
-            <node x="186.0" y="123.0">org.mybatis:mybatis:jar:3.3.0</node>
             <node x="186.0" y="410.0">com.alibaba:dubbo:jar:2.5.3</node>
+            <node x="186.0" y="123.0">org.mybatis:mybatis:jar:3.3.0</node>
             <node x="186.0" y="533.0">org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="186.0" y="943.0">org.springframework:spring-expression:jar:4.2.2.RELEASE</node>
             <node x="186.0" y="41.0">com.google.guava:guava:jar:19.0</node>
-            <node x="339.0" y="697.0">org.springframework:spring-beans:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="186.0" y="984.0">org.springframework:spring-jdbc:jar:4.2.2.RELEASE</node>
+            <node x="339.0" y="697.0">org.springframework:spring-beans:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="320.0" y="1107.0">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="328.0" y="1804.0">org.springframework:spring-web:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="320.0" y="1271.0">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-messaging:jar:4.2.2.RELEASE</node>
-            <node x="352.0" y="738.0">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="186.0" y="1722.0">org.springframework:spring-tx:jar:4.2.2.RELEASE</node>
-            <node x="186.0" y="0.0">io.netty:netty:jar:3.10.5.Final</node>
+            <node x="352.0" y="738.0">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="311.0" y="1722.0">org.springframework:spring-tx:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
+            <node x="186.0" y="0.0">io.netty:netty:jar:3.10.5.Final</node>
             <node x="186.0" y="369.0">org.slf4j:slf4j-api:jar:1.7.5</node>
             <node x="329.0" y="902.0">org.springframework:spring-core:jar:4.2.2.RELEASE/commons-logging:commons-logging:jar:1.2</node>
             <node x="0.0" y="0.0">com.little.pang:boring.cold.world:1.0-SNAPSHOT</node>
@@ -1147,26 +1067,26 @@
               <point x="78.0" y="220.5" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-aop:jar:4.2.2.RELEASE" target="org.springframework:spring-aop:jar:4.2.2.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="org.springframework:spring-aop:jar:4.2.2.RELEASE" target="org.springframework:spring-aop:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="239.5" y="630.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.2.2.RELEASE" target="org.springframework:spring-aop:jar:4.2.2.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-context:jar:4.2.2.RELEASE" target="org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="com.little.pang:boring.cold.world:1.0-SNAPSHOT" target="io.netty:netty:jar:3.10.5.Final">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="com.little.pang:boring.cold.world:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.2.2.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="78.0" y="1696.5" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.little.pang:boring.cold.world:1.0-SNAPSHOT" target="io.netty:netty:jar:3.10.5.Final">
+              <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-orm:jar:4.2.2.RELEASE" target="org.springframework:spring-orm:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE">
@@ -1307,23 +1227,23 @@
               <point x="78.0" y="343.5" />
               <point x="0.0" y="0.0" />
             </edge>
+            <edge source="org.springframework:spring-test:jar:4.2.2.RELEASE" target="org.springframework:spring-test:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="com.alibaba:dubbo:jar:2.5.3" target="com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final">
               <point x="0.0" y="0.0" />
               <point x="224.5" y="466.5" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-test:jar:4.2.2.RELEASE" target="org.springframework:spring-test:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE">
+            <edge source="org.springframework:spring-jms:jar:4.2.2.RELEASE" target="org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE">
               <point x="0.0" y="0.0" />
+              <point x="238.0" y="1163.5" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="com.little.pang:boring.cold.world:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.2.2.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="78.0" y="999.5" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.springframework:spring-jms:jar:4.2.2.RELEASE" target="org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="238.0" y="1163.5" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="com.little.pang:boring.cold.world:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.2.2.RELEASE">
@@ -1355,8 +1275,9 @@
               <point x="241.5" y="1655.5" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-core:jar:4.2.2.RELEASE" target="org.springframework:spring-core:jar:4.2.2.RELEASE/commons-logging:commons-logging:jar:1.2">
+            <edge source="com.little.pang:boring.cold.world:1.0-SNAPSHOT" target="org.springframework.spring:spring:jar:4.2.2.RELEASE">
               <point x="0.0" y="0.0" />
+              <point x="78.0" y="507.5" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="com.little.pang:boring.cold.world:1.0-SNAPSHOT" target="ch.qos.logback:logback-classic:jar:1.1.3">
@@ -1364,9 +1285,8 @@
               <point x="78.0" y="261.5" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="com.little.pang:boring.cold.world:1.0-SNAPSHOT" target="org.springframework.spring:spring:jar:4.2.2.RELEASE">
+            <edge source="org.springframework:spring-core:jar:4.2.2.RELEASE" target="org.springframework:spring-core:jar:4.2.2.RELEASE/commons-logging:commons-logging:jar:1.2">
               <point x="0.0" y="0.0" />
-              <point x="78.0" y="507.5" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-webmvc:jar:4.2.2.RELEASE" target="org.springframework:spring-webmvc:jar:4.2.2.RELEASE/org.springframework:spring-context:jar:4.2.2.RELEASE">
@@ -1423,13 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://MAVEN/com.little.pang:boring.cold.world:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1457,9 +1370,9 @@
             <node x="" y="">org.springframework:spring-aop:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-messaging:jar:4.2.2.RELEASE/org.springframework:spring-context:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-web:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
-            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.3/ch.qos.logback:logback-core:jar:1.1.3</node>
-            <node x="" y="">com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final</node>
             <node x="" y="">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
+            <node x="" y="">com.alibaba:dubbo:jar:2.5.3/org.jboss.netty:netty:jar:3.2.5.Final</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.1.3/ch.qos.logback:logback-core:jar:1.1.3</node>
             <node x="" y="">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-context:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-expression:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-messaging:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
@@ -1483,28 +1396,28 @@
             <node x="" y="">org.springframework:spring-oxm:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.2.RELEASE/org.springframework:spring-expression:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-webmvc:jar:4.2.2.RELEASE/org.springframework:spring-web:jar:4.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.2.2.RELEASE/org.springframework:spring-expression:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-orm:jar:4.2.2.RELEASE/org.springframework:spring-tx:jar:4.2.2.RELEASE</node>
             <node x="" y="">io.netty:netty-all:jar:4.0.35.Final</node>
             <node x="" y="">junit:junit-dep:jar:4.10/org.hamcrest:hamcrest-core:jar:1.1</node>
             <node x="" y="">org.springframework:spring-webmvc:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
-            <node x="" y="">org.springframework:spring-aop:jar:4.2.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.2.2.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">com.alibaba:dubbo:jar:2.5.3/org.javassist:javassist:jar:3.15.0-GA</node>
-            <node x="" y="">org.mybatis:mybatis:jar:3.3.0</node>
             <node x="" y="">com.alibaba:dubbo:jar:2.5.3</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.3.0</node>
             <node x="" y="">org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-expression:jar:4.2.2.RELEASE</node>
             <node x="" y="">com.google.guava:guava:jar:19.0</node>
-            <node x="" y="">org.springframework:spring-beans:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-jdbc:jar:4.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:4.2.2.RELEASE/org.springframework:spring-core:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-web:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-jms:jar:4.2.2.RELEASE/org.springframework:spring-messaging:jar:4.2.2.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-tx:jar:4.2.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.2.2.RELEASE/org.springframework:spring-aop:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.springframework:spring-tx:jar:4.2.2.RELEASE/org.springframework:spring-beans:jar:4.2.2.RELEASE</node>
             <node x="" y="">org.slf4j:slf4j-api:jar:1.7.5</node>
             <node x="" y="">org.springframework:spring-core:jar:4.2.2.RELEASE/commons-logging:commons-logging:jar:1.2</node>
@@ -1575,7 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="819">
           <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1583,7 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
           <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1591,7 +1502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1892" max-vertical-offset="9996">
           <caret line="127" column="17" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,21 +1512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="5733">
-          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-          <folding>
-            <element signature="tag#dependencies#0;tag#project#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.35.Final/netty-all-4.0.35.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1136" max-vertical-offset="2394">
           <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1645,7 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1653,7 +1551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1323">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1661,7 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
           <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1669,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3300" max-vertical-offset="4221">
           <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1677,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="7161">
           <caret line="51" column="48" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1685,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1180" max-vertical-offset="2058">
           <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1693,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1829" max-vertical-offset="2730">
           <caret line="143" column="28" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1701,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="1050">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1709,7 +1600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1029">
           <caret line="40" column="72" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1717,7 +1607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3066">
           <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1725,7 +1614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="2226">
           <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1733,10 +1621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.4" vertical-offset="4674" max-vertical-offset="9156">
           <caret line="274" column="16" selection-start-line="274" selection-start-column="16" selection-end-line="274" selection-end-column="16" />
-          <folding>
-            <element signature="e#12393#12394#0" expanded="true" />
-            <element signature="e#12438#12439#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1744,7 +1628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="966">
           <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1822,9 +1705,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/time/packagesplicing/EchoClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31272727" vertical-offset="376" max-vertical-offset="966">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="966">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16742598" vertical-offset="504" max-vertical-offset="5733">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="tag#dependencies#0;tag#project#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

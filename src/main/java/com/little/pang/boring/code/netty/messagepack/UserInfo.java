@@ -8,8 +8,7 @@ import java.io.Serializable;
 /**
  * Created by jaky on 4/5/16.
  */
-public class UserInfo implements Serializable {
-    private static final long serialVersionUID = 1836841163186145936L;
+public class UserInfo {
     private int id;
     private String name;
 

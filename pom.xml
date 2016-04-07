@@ -25,12 +25,19 @@
         <org.springframework.spring.version>2.5.6</org.springframework.spring.version>
         <commons-lang3.version>3.4</commons-lang3.version>
         <messagepack.version>0.6.12</messagepack.version>
+        <protobuf.version>2.6.1</protobuf.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
 
+            <!--protobuf 编解码-->
+            <dependency>
+                <groupId>com.google.protobuf</groupId>
+                <artifactId>protobuf-java</artifactId>
+                <version>${protobuf.version}</version>
+            </dependency>
 
             <!-- 编解码 -->
             <dependency>
@@ -262,6 +269,11 @@
     </dependencyManagement>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.msgpack</groupId>

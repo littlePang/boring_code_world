@@ -39,9 +39,9 @@ public class NettyMessageEncoder extends MessageToByteEncoder<NettyMessage> {
 
         out.writeByte(msg.getHeader().getPriority()); // 优先级默认为1
 
-        out.writeInt(msg.getHeader().getAttachment().size());
 
         if (MapUtils.isNotEmpty(msg.getHeader().getAttachment())) {
+            out.writeInt(msg.getHeader().getAttachment().size());
             for (Map.Entry<String, Object> entry : msg.getHeader().getAttachment().entrySet()) {
                 byte[] keyByteArr = entry.getKey().getBytes(Charsets.UTF_8);
                 out.writeInt(keyByteArr.length);
@@ -49,6 +49,8 @@ public class NettyMessageEncoder extends MessageToByteEncoder<NettyMessage> {
 
                 messagePackEncoder.encodeObject(entry.getValue(), out);
             }
+        } else {
+            out.writeInt(0);
         }
 
         if (null != msg.getBody()) {

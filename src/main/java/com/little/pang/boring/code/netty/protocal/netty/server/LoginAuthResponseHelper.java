@@ -7,8 +7,6 @@ import com.little.pang.boring.code.netty.protocal.netty.model.NettyMessage;
 import com.little.pang.boring.code.netty.protocal.netty.model.NettyMessageHeader;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -33,18 +31,18 @@ public class LoginAuthResponseHelper extends SimpleChannelInboundHandler<NettyMe
                 String remoteHostAddress = ((InetSocketAddress) (ctx.channel().remoteAddress())).getAddress().getHostAddress();
 
                 if (loginCheckMap.get(remoteHostAddress) != null) {
-                    logger.info("ip {} 重复申请登录", remoteHostAddress);
+                    logger.info("ip {} is repeat login, message {}", remoteHostAddress, msg);
                     ctx.writeAndFlush(buildHandShakeResponse((byte) -1)); // 登录失败
                     return;
                 }
 
                 if (NettyProtocolConstant.ALLOW_LOGIN_IPS.contains(remoteHostAddress)) {
-                    logger.info("ip {} 在白名单中, 允许连接", remoteHostAddress);
+                    logger.info("ip {} in the white list, allow it login, message {}", remoteHostAddress, msg);
                     loginCheckMap.put(remoteHostAddress, true);
                     ctx.writeAndFlush(buildHandShakeResponse((byte) 0)); // 登录成功
 
                 } else {
-                    logger.info("ip {} 不在白名单中, 不允许连接", remoteHostAddress);
+                    logger.info("ip {} not in the white list, refuse it login, message {}", remoteHostAddress, msg);
                     ctx.writeAndFlush(buildHandShakeResponse((byte) -1)); // 登录失败
 
                 }

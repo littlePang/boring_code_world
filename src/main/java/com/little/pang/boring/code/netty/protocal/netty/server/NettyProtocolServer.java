@@ -32,6 +32,7 @@ public class NettyProtocolServer {
                                     NettyProtocolConstant.NETTY_MESSAGE_LENGTH_FIELD_LENGTH));
                             ch.pipeline().addLast(new NettyMessageEncoder());
                             ch.pipeline().addLast(new LoginAuthResponseHelper());
+                            ch.pipeline().addLast(new HeartBeatResponseHelper());
                         }
                     });
 

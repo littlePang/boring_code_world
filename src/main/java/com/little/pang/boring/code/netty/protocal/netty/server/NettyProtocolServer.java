@@ -11,6 +11,7 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.timeout.ReadTimeoutHandler;
 
 /**
  * Created by jaky on 3/29/16.
@@ -31,6 +32,7 @@ public class NettyProtocolServer {
                                     NettyProtocolConstant.NETTY_MESSAGE_LENGTH_FIELD_OFFSET,
                                     NettyProtocolConstant.NETTY_MESSAGE_LENGTH_FIELD_LENGTH));
                             ch.pipeline().addLast(new NettyMessageEncoder());
+                            ch.pipeline().addLast(new ReadTimeoutHandler(50));// 读超时
                             ch.pipeline().addLast(new LoginAuthResponseHelper());
                             ch.pipeline().addLast(new HeartBeatResponseHelper());
                         }

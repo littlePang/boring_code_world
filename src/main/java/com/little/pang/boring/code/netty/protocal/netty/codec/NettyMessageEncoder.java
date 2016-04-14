@@ -6,6 +6,8 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToByteEncoder;
 import org.apache.commons.collections.MapUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Calendar;
 import java.util.Map;
@@ -15,6 +17,8 @@ import java.util.Map;
  */
 public class NettyMessageEncoder extends MessageToByteEncoder<NettyMessage> {
 
+    private static Logger logger = LoggerFactory.getLogger(NettyMessageDecoder.class);
+
     private MessagePackEncoder messagePackEncoder;
 
     public NettyMessageEncoder() {
@@ -23,6 +27,7 @@ public class NettyMessageEncoder extends MessageToByteEncoder<NettyMessage> {
 
     @Override
     protected void encode(ChannelHandlerContext ctx, NettyMessage msg, ByteBuf out) throws Exception {
+        try {
 
         out.writeInt(msg.getHeader().getCrcCode());
 
@@ -52,6 +57,11 @@ public class NettyMessageEncoder extends MessageToByteEncoder<NettyMessage> {
             out.writeInt(0);
         }
         out.setInt(4, out.readableBytes() - 8); // todo 为何这里要减8?
+
+        } catch (Exception e) {
+            logger.error("出错了", e);
+        }
+
 
     }
 

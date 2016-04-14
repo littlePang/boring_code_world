@@ -18,12 +18,15 @@ public class MessagePackEncoder {
     }
 
     public void encodeObject(Object obj, ByteBuf byteBuf) throws Exception {
-        byte[] objByteArr = messagePack.write(obj);
-        int objLength = objByteArr.length;
+        try {
+            byte[] objByteArr = messagePack.write(obj);
+            int objLength = objByteArr.length;
 
-        byteBuf.writeInt(objLength);
-        byteBuf.writeBytes(objByteArr);
-
+            byteBuf.writeInt(objLength);
+            byteBuf.writeBytes(objByteArr);
+        } catch (Exception e) {
+            logger.error("出错了", e);
+        }
 
     }
 

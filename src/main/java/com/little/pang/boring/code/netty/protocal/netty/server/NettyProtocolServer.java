@@ -2,7 +2,7 @@ package com.little.pang.boring.code.netty.protocal.netty.server;
 
 import com.little.pang.boring.code.netty.protocal.netty.codec.NettyMessageDecoder;
 import com.little.pang.boring.code.netty.protocal.netty.codec.NettyMessageEncoder;
-import com.little.pang.boring.code.netty.protocal.netty.common.NettyProtocalConstant;
+import com.little.pang.boring.code.netty.protocal.netty.common.NettyProtocolConstant;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
@@ -27,9 +27,9 @@ public class NettyProtocolServer {
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         protected void initChannel(SocketChannel ch) throws Exception {
-                            ch.pipeline().addLast(new NettyMessageDecoder(NettyProtocalConstant.NETTY_MESSAG_MAX_LENGTH,
-                                    NettyProtocalConstant.NETTY_MESSAG_LENGHT_FIELD_OFFSET,
-                                    NettyProtocalConstant.NETTY_MESSAG_LENGTH_FIELD_LENGTH));
+                            ch.pipeline().addLast(new NettyMessageDecoder(NettyProtocolConstant.NETTY_MESSAGE_MAX_LENGTH,
+                                    NettyProtocolConstant.NETTY_MESSAGE_LENGTH_FIELD_OFFSET,
+                                    NettyProtocolConstant.NETTY_MESSAGE_LENGTH_FIELD_LENGTH));
                             ch.pipeline().addLast(new NettyMessageEncoder());
                             ch.pipeline().addLast(new LoginAuthResponseHelper());
                         }

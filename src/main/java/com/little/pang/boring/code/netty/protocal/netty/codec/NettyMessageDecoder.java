@@ -7,6 +7,8 @@ import com.little.pang.boring.code.netty.protocal.netty.model.NettyMessageHeader
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.LengthFieldBasedFrameDecoder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Map;
 
@@ -14,6 +16,8 @@ import java.util.Map;
  * Created by jaky on 4/11/16.
  */
 public class NettyMessageDecoder extends LengthFieldBasedFrameDecoder {
+
+    private static Logger logger = LoggerFactory.getLogger(NettyMessageDecoder.class);
 
     private MessagePackDecoder messagePackageDecoder;
 
@@ -24,20 +28,25 @@ public class NettyMessageDecoder extends LengthFieldBasedFrameDecoder {
 
     @Override
     protected Object decode(ChannelHandlerContext ctx, ByteBuf in) throws Exception {
-        ByteBuf message = (ByteBuf) super.decode(ctx, in);
-        if (null == message) {
-            return null;
+        try {
+            ByteBuf message = (ByteBuf) super.decode(ctx, in);
+            if (null == message) {
+                return null;
+            }
+
+            NettyMessage nettyMessage = new NettyMessage();
+
+            nettyMessage.setHeader(buildMessageHeader(message));
+
+            if (message.readableBytes() > 4) {
+                nettyMessage.setBody(messagePackageDecoder.decodeObject(message));
+            }
+
+            return nettyMessage;
+        } catch (Exception e) {
+            logger.error("出错了", e);
         }
-
-        NettyMessage nettyMessage = new NettyMessage();
-
-        nettyMessage.setHeader(buildMessageHeader(message));
-
-        if (message.readableBytes() > 4) {
-            nettyMessage.setBody(messagePackageDecoder.decodeObject(message));
-        }
-
-        return nettyMessage;
+        return null;
     }
 
     private NettyMessageHeader buildMessageHeader(ByteBuf message) {

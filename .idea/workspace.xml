@@ -6,14 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8924fbb3-8db5-406c-8b3d-08bababeed08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/HeartBeatRequestHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/server/HeartBeatResponseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/server/LoginAuthResponseHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/server/LoginAuthResponseHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/codec/NettyMessageEncoder.java" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/codec/NettyMessageEncoder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/NettyProtocolClient.java" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/NettyProtocolClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/server/NettyProtocolServer.java" afterPath="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/server/NettyProtocolServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="boring_code_world.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,12 +34,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NettyProtocolClient.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="NettyProtocolClient.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/NettyProtocolClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="1008">
-              <caret line="34" column="80" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
-              <folding />
+            <state vertical-scroll-proportion="0.83272725" vertical-offset="571" max-vertical-offset="1449">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding>
+                <element signature="e#2523#3086#0" expanded="true" />
+                <element signature="e#3071#3072#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginAuthRequestHelper.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginAuthRequestHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/LoginAuthRequestHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6872727" vertical-offset="252" max-vertical-offset="1281">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1281">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -207,13 +203,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/common/NettyProtocalConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/common/NettyProtocolConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/server/NettyProtocolServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/NettyProtocolClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/codec/NettyMessageEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/server/HeartBeatResponseHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/server/LoginAuthResponseHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/HeartBeatRequestHelper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/LoginAuthRequestHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/NettyProtocolClient.java" />
       </list>
     </option>
   </component>
@@ -1065,8 +1061,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.NettyProtocolClient" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NettyProtocolServer" />
+        <item index="0" class="java.lang.String" itemvalue="Application.NettyProtocolServer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.NettyProtocolClient" />
         <item index="2" class="java.lang.String" itemvalue="Application.HttpFileServer" />
         <item index="3" class="java.lang.String" itemvalue="Application.EchoClient (1)" />
         <item index="4" class="java.lang.String" itemvalue="Application.EchoServer (1)" />
@@ -1100,16 +1096,16 @@
       <workItem from="1460379053894" duration="4292000" />
       <workItem from="1460520932416" duration="10330000" />
       <workItem from="1460601015251" duration="649000" />
-      <workItem from="1460626895556" duration="5304000" />
+      <workItem from="1460626895556" duration="5854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64767000" />
+    <option name="totallyTimeSpent" value="65317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1118,7 +1114,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34190783" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40085745" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36655948" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
@@ -1132,7 +1128,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23319103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35155413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35155413" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1586,19 +1582,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/NettyProtocolClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/LoginAuthRequestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="1008">
-          <caret line="34" column="80" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1281">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/LoginAuthRequestHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/little/pang/boring/code/netty/protocal/netty/client/NettyProtocolClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6872727" vertical-offset="252" max-vertical-offset="1281">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-          <folding />
+        <state vertical-scroll-proportion="0.83272725" vertical-offset="571" max-vertical-offset="1449">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="e#2523#3086#0" expanded="true" />
+            <element signature="e#3071#3072#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,11 +11,22 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 /**
  * Created by jaky on 4/13/16.
  */
 public class NettyProtocolClient {
+
+    private static Logger logger = LoggerFactory.getLogger(NettyProtocolClient.class);
+
+    private ScheduledExecutorService executor = Executors
+            .newScheduledThreadPool(1);
 
     public void connect(String host, int port) throws Exception {
         //配置客户端NIO线程组
@@ -42,8 +53,24 @@ public class NettyProtocolClient {
             // 等待客户端链路关闭
             channelFuture.channel().closeFuture().sync();
         } finally {
-            // 优雅退出,释放NIO线程组
-            group.shutdownGracefully();
+            // 所有资源释放完成之后，清空资源，再次发起重连操作
+            executor.execute(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        TimeUnit.SECONDS.sleep(1);
+                        try {
+                            connect("127.0.0.1", 8080);// 发起重连操作
+                        } catch (Exception e) {
+                            logger.error("something is wrong", e);
+                        }
+                    } catch (InterruptedException e) {
+                        logger.error("something is wrong", e);
+                    }
+                }
+            });
+
+
         }
     }
 

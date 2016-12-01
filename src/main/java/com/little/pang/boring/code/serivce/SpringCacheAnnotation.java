@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 public class SpringCacheAnnotation {
     private static Logger logger = LoggerFactory.getLogger(SpringCacheAnnotation.class);
 
-    @Cacheable(cacheNames = "simpleCacheImpl")
+    @Cacheable(cacheNames = "simpleCacheImpl", keyGenerator = "")
     public String load(String key) {
         logger.info("load for key {}", key);
         return String.format("value for key [%s]", key);

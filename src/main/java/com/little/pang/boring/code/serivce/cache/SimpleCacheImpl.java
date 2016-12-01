@@ -10,10 +10,12 @@ import java.util.Map;
 /**
  * Created by jaky on 3/21/16.
  */
-@Service("simpleCacheImpl")
+@Service("simpleCacheImpl231231231")
 public class SimpleCacheImpl implements Cache {
 
     public Map<Object, String> memoryCache = Maps.newHashMap();
+
+
 
     @Override
     public String getName() {

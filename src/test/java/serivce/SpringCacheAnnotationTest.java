@@ -42,5 +42,11 @@ public class SpringCacheAnnotationTest {
         String cacheValue = springCacheAnnotation.load("little");
         logger.info("little value is {}", cacheValue);
 
+        String value1 = springCacheAnnotation.load("little123");
+        logger.info("little value is {}", value1);
+
+        String cacheValue1 = springCacheAnnotation.load("little123");
+        logger.info("little value is {}", cacheValue1);
+
     }
 }

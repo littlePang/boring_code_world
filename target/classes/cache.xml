@@ -18,7 +18,7 @@
     <bean name="cacheManager" class="org.springframework.cache.support.SimpleCacheManager">
         <property name="caches">
             <set>
-                <ref bean="simpleCacheImpl" />
+                <ref bean="simpleCacheImpl123123" />
             </set>
         </property>
 

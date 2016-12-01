@@ -22,9 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="boring_code_world" />
+        <module name="boring.cold.world" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="boring.cold.world" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
